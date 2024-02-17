@@ -1,0 +1,320 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+}
+
+.nav{
+    background-color: #0f1111;
+    height: 60px;
+    display: flex;
+    overflow: auto;
+    justify-content: space-evenly;
+}
+.logo{
+    height: 100%; width: 125px;
+    background-image: url("../images/amazonLogo.jpg");
+    background-size: cover; background-repeat: no-repeat;
+    flex-wrap: wrap;
+}
+.border{
+    border: 1.5px transparent solid;
+}
+.border:hover{
+    border: white 1.5px solid;
+    border-radius: 4px;
+}
+/* sec div */
+
+.sec-div{
+    height: 100%; width: 200px;
+    display: flex;
+    align-items: center;
+}
+.fir-add{
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+}
+.sec-add{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+/* 3rd div */
+.third-div{
+    align-items: center;
+    display: flex;
+    width: auto;
+}
+.thirdInnerdiv{
+    height: 70%;
+    display: flex;
+}
+.select-options{
+    color: black;
+    width: 45px; height: 100%;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: rgb(196, 196, 196);
+    border: none;
+}
+.text-enter-search{
+    width: 350px; height: 100%;
+    border: none;
+}
+.magnGlass{
+    height: 100%;
+    width: 30px;
+    background-color: rgb(255, 208, 0);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.magnGlass:hover{
+    background-color: rgb(194, 162, 0);
+}
+.thirdInnerdiv{
+    border: transparent solid 3px;
+    border-radius: 8px;
+}
+.thirdInnerdiv:hover{
+    border: 3px rgb(255, 157, 0) solid;
+    border-radius: 8px;
+}
+.text-enter-search:focus{
+    outline: none;
+}
+/* fourth div */
+.fourth-div{
+    height: 100%; width: auto;
+    display: flex; align-items: center;
+    border: transparent 1.5px solid;
+    padding: 0px 7px;
+}
+
+.options-color{
+    color: black;
+}
+.language-options{
+    height: 20px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+.flag-icon{
+    height: 20px; width: 30px;
+    background-image: url("../images/indianFlagIcon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.housingFlagiconAndLang{
+    height: auto; width: auto;
+}
+/* fifth div and sixth*/
+.position-adjust{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.TopParaLine{
+    font-size: 11px;
+}
+.BottomParaLine{
+    font-weight: 600;
+}
+/* seventh div */
+.seventh-div{
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* panel */
+.panel{
+    height: 40px;
+    width: 100%;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.panel_left_elements{
+    box-sizing: border-box;
+    width: fit-content;
+}
+
+.panel_right_elements{
+    height: 100%;
+}
+.panel_right_elements span img{
+    height: 30px;
+    width: 30px;
+    border-radius: 7px;
+}
+.panel_right_elements span span{
+    font-weight: 600;
+}
+.panel_left_elements > span:nth-child(2) select{
+    background-color: transparent;
+    border: none;
+}
+.panel_left_elements span{
+    padding: 7px 4px 7px 4px;
+}
+
+/* background main image */
+.background-main-image{
+    height: 430px; width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.background-main-image img{
+    position: absolute;
+    width: 100%;
+}
+/* box layout  */
+.box-layouts{
+    height: auto; width: 100%;
+    position: relative;
+    top: -180px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background: linear-gradient(to bottom, #bfeff7 30%, rgba(238, 252, 255, 0.084) 100%);
+}
+.box{
+    height: 400px; width: 23%;
+    margin-top: 23px;
+    background-color: white;
+}
+.paddingBox{
+    margin: 15px;
+    height: auto; width: auto;
+}
+.innerBoxImage{
+    width: 100%;
+    height: 255px;
+    background-size: cover;
+}
+.box .paddingBox h2{
+    color: black;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box .paddingBox a{
+    color: #007185;
+    font: 13px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+/* footer panel designing*/
+/* footer panel 1 */
+.itsFooterPanel{
+    height: auto; width: 100%;
+    position: relative; top: -150px;
+}
+.footer-panel1{
+    background-color: #37475a;
+    height: 50px; width: 100%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-panel2 ul{
+    list-style-type: none;
+    margin: 25px 0px 25px 0px;
+}
+.footer-panel2 ul li{
+    font-size: 13px;
+}
+.footer-panel2 ul li:first-child{
+    font-size: large;
+}
+.footer-panel2 {
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-panel3{
+    height: 80px;
+    width: 100%;
+    background-color: #222f3d;
+    border-top: #37475a 2px solid;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.footer-panel3 img{
+    height: 15px;
+    border-radius: 3px;
+}
+.footer-panel4{
+    height: auto; width: 100%;
+    background-color: #222f3d;
+    
+}
+.footer-panel4 ul li{
+    margin-left: 50px;
+}
+.footer-panel4 ul{
+    list-style-type: none;
+    font-size: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 30px 0px;
+}
+.footer-panel5{
+    height: auto; width: 100%;
+    background-color: #151d26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-panel5 table{
+    padding: 15px 0px 15px 0px;
+}
+.footer-panel5 table tr td{
+    padding-right: 180px;
+    padding-top: 20px;
+}
+.footer-panel5 table tr td pre:first-child{
+    font-size: medium;
+    font-weight: 600;
+}
+.footer-panel5 table tr td pre:nth-child(2){
+    font-size: smaller;
+    color: rgb(215, 215, 215);
+}
+
+.footer-panel6{
+    height: auto; width: 100%;
+    background-color: #151d26;
+
+}
+.footer-panel6Internal{
+    width: 100%;
+}
+
+.footer-panel6 div ul{
+    display: flex;
+    justify-content: center;
+
+}
+.footer-panel6 div ul li{
+    list-style-type: none;
+    padding: 0px 15px 0px 15px;
+}
+.footer-panel6 p{
+    text-align: center;
+}
+
+
