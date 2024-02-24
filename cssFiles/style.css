@@ -88,6 +88,9 @@
 .text-enter-search:focus{
     outline: none;
 }
+.third-div .thirdInnerdiv .text-enter-search{
+    color: black;
+}
 /* fourth div */
 .fourth-div{
     height: 100%; width: auto;
@@ -226,35 +229,6 @@
     
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* box layout  */
 .box-layouts{
     height: auto; width: 100%;
@@ -350,6 +324,12 @@
     align-items: center;
     padding: 0px 0px 30px 0px;
 }
+
+
+
+
+
+
 .footer-panel5{
     height: auto; width: 100%;
     background-color: #151d26;
@@ -358,7 +338,7 @@
     align-items: center;
 }
 .footer-panel5 table{
-    padding: 15px 0px 15px 0px;
+    padding: 15px 0px 15px 190px;
 }
 .footer-panel5 table tr td{
     padding-right: 180px;
@@ -372,6 +352,19 @@
     font-size: smaller;
     color: rgb(215, 215, 215);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer-panel6{
     height: auto; width: 100%;
