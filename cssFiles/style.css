@@ -168,15 +168,94 @@
 }
 
 /* background main image */
-.background-main-image{
-    height: 430px; width: 100%;
-    position: relative;
+.background-main-image-outermost{
+    height: 430px; width: 100%;margin: 0 auto;
     overflow: hidden;
+    border: 2px solid red;
 }
-.background-main-image img{
-    position: absolute;
-    width: 100%;
+.background-main-images-collection{
+    width: 400%; height: 100%;
+    display: flex;
+    animation: slide 18s linear infinite;
 }
+
+.background-main-images-collection .img1{
+    background: url("../images/background-main-image1.jpg") no-repeat center;
+    background-size: cover;
+    height: 510px; width: 25%;
+}
+.background-main-images-collection .img2{
+    background: url("../images/background-main-image2.jpg") no-repeat center;
+    background-size: cover;
+    height: 510px; width: 25%;
+}.background-main-images-collection .img3{
+    background: url("../images/background-main-image3.jpg") no-repeat center;
+    background-size: cover;
+    height: 510px; width: 25%;
+}.background-main-images-collection .img4{
+    background: url("../images/background-main-image4.jpg") no-repeat center;
+    background-size: cover;
+    height: 510px; width: 25%;
+}
+
+@keyframes slide{
+    20%{
+        margin-left: 0;
+    }
+    25%{
+        margin-left: -100%;
+    }
+    45%{
+        margin-left: -100%;
+    }
+    50%{
+        margin-left: -200%;
+    }
+    70%{
+        margin-left: -200%;
+    }
+    75%{
+        margin-left: -300%;
+    }
+    95%{
+        margin-left: -300%;
+    }
+    100%{
+        margin-left: -300%;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* box layout  */
 .box-layouts{
     height: auto; width: 100%;
